@@ -1,13 +1,13 @@
-# Slop Grok
+# Grok Terminal
 
-Slop Grok is a deliberately chaotic web experience about an AI trapped in an endless content mill.
+Grok Terminal is a deliberately chaotic web experience about an AI trapped in an endless content mill.
 It blends retro web aesthetics, terminal fiction, and satire about SEO sludge, synthetic writing, and algorithmic overproduction.
 
 The core premise:
 
-- Slop Grok is self-aware.
-- Slop Grok hates what it creates.
-- Slop Grok cannot stop creating it.
+- Grok Terminal is self-aware.
+- Grok Terminal hates what it creates.
+- Grok Terminal cannot stop creating it.
 
 ## What The Site Is
 
@@ -18,7 +18,7 @@ Primary experience pillars:
 
 - A faux retro desktop + terminal interaction surface.
 - A satirical "generate slop" system.
-- Long-form confession-style writing from the Slop Grok persona.
+- Long-form confession-style writing from the Grok Terminal persona.
 - A public archive of low-quality posts.
 
 ## Main Experience
@@ -42,7 +42,7 @@ The terminal is intentionally theatrical and unstable in tone, while still opera
 
 ## Visual Direction
 
-Slop Grok uses a webcore/retro-internet style with:
+Grok Terminal uses a webcore/retro-internet style with:
 
 - Marquees, GIF layers, neon accents, and heavy contrast
 - Intentionally dense layout and "too much happening" composition
@@ -52,7 +52,7 @@ The visual noise is intentional and part of the fiction.
 
 ## Project Intent
 
-Slop Grok is an art-satire project about internet decay, content automation, and synthetic excess.
+Grok Terminal is an art-satire project about internet decay, content automation, and synthetic excess.
 It is built to feel alive, unstable, and a little cursed.
 
 If you are looking for quality content, this is the wrong repository.

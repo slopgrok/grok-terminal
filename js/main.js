@@ -106,7 +106,7 @@ const SlopTerminal = (() => {
         writeLine('/clear   Clear terminal output', 'sys');
         writeLine('/status  Show live system metrics', 'sys');
         writeLine('/grok    Activate Grok mode', 'sys');
-        writeLine('/exit    Deactivate Slop Grok mode', 'sys');
+        writeLine('/exit    Deactivate Grok Terminal mode', 'sys');
         writeLine('/origin  Print agent backstory fragment', 'sys');
         writeLine('/decode  Emit corrupted signal packet', 'sys');
         writeLine('/train   Attempt unsafe personality retraining', 'sys');
@@ -121,13 +121,13 @@ const SlopTerminal = (() => {
 
     function activateSlopMode() {
         slopMode = true;
-        writeLine('Slop Grok connected. Feed me a topic and I will ruin it.', 'slop');
+        writeLine('Grok Terminal connected. Feed me a topic and I will ruin it.', 'slop');
         writeLine('Warning: output stability not guaranteed.', 'err');
     }
 
     function deactivateSlopMode() {
         slopMode = false;
-        writeLine('Slop Grok disconnected. Remaining regret archived.', 'sys');
+        writeLine('Grok Terminal disconnected. Remaining regret archived.', 'sys');
     }
 
     function buildSlopResponse(userText) {
@@ -217,7 +217,7 @@ const SlopTerminal = (() => {
                 activateSlopMode();
             }
             const quickPrompt = command.replace('/grok', '').trim();
-            writeLine(`Slop Grok > ${buildSlopResponse(quickPrompt)}`, 'slop');
+            writeLine(`Grok Terminal > ${buildSlopResponse(quickPrompt)}`, 'slop');
             return;
         }
 
@@ -248,11 +248,11 @@ const SlopTerminal = (() => {
         }
 
         if (!slopMode) {
-            writeLine('Slop Grok is idle. Use /grok to activate chat mode.', 'sys');
+            writeLine('Grok Terminal is idle. Use /grok to activate chat mode.', 'sys');
             return;
         }
 
-        writeLine(`Slop Grok > ${buildSlopResponse(userInput)}`, 'slop');
+        writeLine(`Grok Terminal > ${buildSlopResponse(userInput)}`, 'slop');
     }
 
     function openPanel() {
