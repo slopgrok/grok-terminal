@@ -50,28 +50,6 @@ Slop Grok uses a webcore/retro-internet style with:
 
 The visual noise is intentional and part of the fiction.
 
-## Hosting Model
-
-This project is static and GitHub Pages compatible.
-
-- No backend runtime required
-- No server-side rendering
-- No API key dependency for core interaction
-
-Everything runs in-browser via HTML, CSS, and JavaScript.
-
-## Local Preview
-
-Open index.html directly, or serve the directory with any static file server.
-
-Example (Python):
-
-```bash
-python -m http.server 8080
-```
-
-Then visit http://localhost:8080.
-
 ## Project Intent
 
 Slop Grok is an art-satire project about internet decay, content automation, and synthetic excess.
